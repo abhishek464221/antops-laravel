@@ -62,6 +62,10 @@ Route::get('/portfolio', function () {
     return view('portfolio');
 })->name('portfolio');
 
+Route::get('/technologies', function () {
+    return view('technologies');
+})->name('technologies');
+
 /* =====================================================
    SERVICES — Sub pages (services.services.*)
    Path: resources/views/services/services/*.blade.php
@@ -397,53 +401,115 @@ Route::get('/technology/github-actions', function () {
     return view('technology.github-actions');
 })->name('technology.github-actions'); 
 
-Route::get('/technology/android', function () {
-    return view('technology.android');
-})->name('technology.android'); 
+Route::get('/technology/google-cloud', function () {
+    return view('technology.google-cloud');
+})->name('technology.google-cloud'); 
+
+Route::get('/technology/html5', function () {
+    return view('technology.html5');
+})->name('technology.html5'); 
+
+Route::get('/technology/ios', function () {
+    return view('technology.ios');
+})->name('technology.ios'); 
+
+Route::get('/technology/java-development-services', function () {
+    return view('technology.java-development-services');
+})->name('technology.java-development-services'); 
+
+Route::get('/technology/javascript', function () {
+    return view('technology.javascript');
+})->name('technology.javascript'); 
+
+Route::get('/technology/kotlin', function () {
+    return view('technology.kotlin');
+})->name('technology.kotlin'); 
+
+Route::get('/technology/kubernetes', function () {
+    return view('technology.kubernetes'); 
+})->name('technology.kubernetes'); 
+
+Route::get('/technology/laravel-development-services', function () {
+    return view('technology.laravel-development-services');
+})->name('technology.laravel-development-services'); 
+
+Route::get('/technology/microsoft-azure', function () {
+    return view('technology.microsoft-azure');
+})->name('technology.microsoft-azure'); 
+
+Route::get('/technology/microsoft-sql-server', function () {
+    return view('technology.microsoft-sql-server');
+})->name('technology.microsoft-sql-server'); 
+
+Route::get('/technology/next', function () {
+    return view('technology.next');
+})->name('technology.next'); 
+
+Route::get('/technology/net-development-services', function () {
+    return view('technology.net-development-services');
+})->name('technology.net-development-services'); 
+
+Route::get('/technology/mysql', function () {
+    return view('technology.mysql');
+})->name('technology.mysql'); 
+
+Route::get('/technology/mongodb', function () {
+    return view('technology.mongodb');
+})->name('technology.mongodb');
+
+Route::get('/technology/python-development-services', function () {
+    return view('technology.python-development-services');
+})->name('technology.python-development-services');
+
+Route::get('/technology/postgresql', function () {
+    return view('technology.postgresql');
+})->name('technology.postgresql');
+
+Route::get('/technology/php-development-services', function () {
+    return view('technology.php-development-services');
+})->name('technology.php-development-services');
+
+Route::get('/technology/nodejs-development-services', function () {
+    return view('technology.nodejs-development-services');
+})->name('technology.nodejs-development-services');
+
+Route::get('/technology/react-native', function () {
+    return view('technology.react-native');
+})->name('technology.react-native');
+
+Route::get('/technology/reactjs', function () {
+    return view('technology.reactjs');
+})->name('technology.reactjs');
+
+Route::get('/technology/vuejs', function () {
+    return view('technology.vuejs');
+})->name('technology.vuejs');
+
+Route::get('/technology/tailwind-css', function () {
+    return view('technology.tailwind-css');
+})->name('technology.tailwind-css');
+
+Route::get('/technology/swift', function () {
+    return view('technology.swift');
+})->name('technology.swift');
+
+Route::get('/technology/spring-boot-development-services', function () {
+    return view('technology.spring-boot-development-services');
+})->name('technology.spring-boot-development-services');
+
+Route::get('/technology/redis', function () {
+    return view('technology.redis');
+})->name('technology.redis');
 
 Route::get('/technology/android', function () {
     return view('technology.android');
-})->name('technology.android'); 
+})->name('technology.android');
 
-Route::get('/technology/android', function () {
-    return view('technology.android');
-})->name('technology.android'); 
 
-Route::get('/technology/android', function () {
-    return view('technology.android');
-})->name('technology.android'); 
 
-Route::get('/technology/android', function () {
-    return view('technology.android');
-})->name('technology.android'); 
 
-Route::get('/technology/android', function () {
-    return view('technology.android');
-})->name('technology.android'); 
 
-Route::get('/technology/android', function () {
-    return view('technology.android');
-})->name('technology.android'); 
 
-Route::get('/technology/android', function () {
-    return view('technology.android');
-})->name('technology.android'); 
-
-Route::get('/technology/android', function () {
-    return view('technology.android');
-})->name('technology.android'); 
-
-Route::get('/technology/android', function () {
-    return view('technology.android');
-})->name('technology.android'); 
-
-Route::get('/technology/android', function () {
-    return view('technology.android');
-})->name('technology.android'); 
-
-Route::get('/technology/android', function () {
-    return view('technology.android');
-})->name('technology.android'); 
 
 
 

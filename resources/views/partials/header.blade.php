@@ -2,14 +2,17 @@
 .top-bar { background: #B0171F; font-family: 'Inter'; font-size: 13px; color: #fff;
     border-bottom: 2px solid #CF171F; box-shadow: 0 2px 10px rgba(38,66,124,.15); }
 .top-bar a { color: #fff; text-decoration: none; transition: color .3s; }
-.top-bar a:hover { color: #CF171F; }
+.top-bar a:hover {
+    color: #fff;
+    font-weight: 500;
+}
 .top-bar .top-inner { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; }
 .top-bar .top-left, .top-bar .top-right { display: flex; align-items: center; gap: 22px; flex-wrap: wrap; }
 .top-bar .top-item { display: inline-flex; align-items: center; gap: 7px; padding: 8px 0; }
 .top-bar .top-item i { color: #CF171F; font-size: 13px; }
 .top-bar .top-social { display: inline-flex; gap: 14px; }
-.top-bar .top-social a { color: #fff; font-size: 13px; transition: color .3s, transform .3s; }
-.top-bar .top-social a:hover { color: #CF171F; transform: translateY(-1px); }
+.top-bar .top-social a { color: #fff; font-size: 15px; transition: color .3s, transform .3s; }
+.top-bar .top-social a:hover { color: #ffffff; transform: translateY(-1px); }
 
 .header { position: sticky !important; top: 0 !important; z-index: 99 !important;
     height: 75px !important; box-shadow: 0 6px 30px -8px rgba(38,66,124,.18);
@@ -753,7 +756,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> 
                         </div>
                     </li>
 
